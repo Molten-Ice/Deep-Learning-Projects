@@ -16,7 +16,7 @@ F1 scores(Sørensen–Dice coefficient):  [0.4638, 0.39889, 0.55463, 0.49527, 0.
 
 Average 0.46
 
-![vesuvius-slice-pred](/Images/vesuvius-slice-pred.png)
+![vesuvius-full-prediction](/Images/vesuvius-full-prediction.png)
 
 ![vesuvius-slice-float](/Images/vesuvius-slice-float.png)
 
