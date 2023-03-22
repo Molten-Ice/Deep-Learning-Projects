@@ -4,6 +4,24 @@ A collection of projects &amp; papers that I've in implementing in PyTorch
 
 ## Vesuvius Challenge - detecting ink in ancient papyrus scrolls
 
+![vesuvius-mask-label](/Images/vesuvius-mask-label.png)
+
+![vesuvius-train-data](/Images/vesuvius-train-data.png)
+
+![vesuvius-validation-split](/Images/vesuvius-validation-split.png)
+
+k-fold cross-validation (k=5):
+
+F1 scores(Sørensen–Dice coefficient):  [0.4638, 0.39889, 0.55463, 0.49527, 0.38838]
+
+Average 0.46
+
+![vesuvius-full-prediction](/Images/vesuvius-full-prediction.png)
+
+![vesuvius-slice-float](/Images/vesuvius-slice-float.png)
+
+![vesuvius-slice-bool](/Images/vesuvius-slice-bool.png)
+
 ## Auto-encoder for MNIST
 
 Condensing information into a 10 node bottleneck, through two different model architectures. This dimensional condensed representations of the input images features is then used for train a side neural network, with the weights for the initial model frozen to get predictions for the MNIST dataset.
@@ -37,7 +55,6 @@ Epoch: 90 | Train loss: 982.5375 | Test loss: 988.5124 | Time elapsed: 196.68 se
 Reconstructions:
 ![autoencoder-reconstructions-vgg](/Images/autoencoder-reconstructions-vgg.png)
 
-
 Freezing encoder weights, and taking output to feed into side neural network outcome:
 
 E:9, b:15 |Train loss: 0.2056, acc:92.7734 | Test loss: 0.2199, acc: 91.5527 | 
@@ -45,7 +62,6 @@ E:9, b:15 |Train loss: 0.2056, acc:92.7734 | Test loss: 0.2199, acc: 91.5527 |
 ### Conclusion
 
 We can see that the losses for the entire model decreases from ~1250 to <1000 by adapting out model architecture, and the corresponding increase in accuracy was seen from 85% to 91% on the train!
-
 
 ## GPT
 
@@ -58,10 +74,8 @@ It is trained on the foundation triology by Issac Asimov.
 ![gpt-positional-encodings](/Images/gpt-positional-encodings.png)
 
 
-
 ### Sample prediciton from the model (promped by a single blank space character only)
 
-"""
 Hardin, I say!" 
 
 His voice was an artificial cluster. "Did he to be detected. Where should himself to be strong, 
@@ -71,7 +85,6 @@ affective is it right to to have your prisoner?"
 
 "I don't quite him of the correct - and threats are not betray lost in the apiece of cloaking as 
 sky. Yes, then we can't help?" 
-"""
 
 ### Model experiment and results using different architectures and training parameters
 
