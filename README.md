@@ -49,6 +49,33 @@ We can see that the losses for the entire model decreases from ~1250 to <1000 by
 
 ## GPT
 
+Based on paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
+The goal of the model is next character prediction.
+
+It is trained on the foundation triology by Issac Asimov.
+
+![gpt-positional-encodings](/Images/gpt-positional-encodings.png)
+
+
+
+### Sample prediciton from the model (promped by a single blank space character only)
+
+"""
+Hardin, I say!" 
+
+His voice was an artificial cluster. "Did he to be detected. Where should himself to be strong, 
+while I tell you I hear you the Plan, get into the Galaxy and you think I ask like the televisors 
+of Salvor Hardin. You may be it fifty you have developed to him that anywhere, and I've been 
+affective is it right to to have your prisoner?" 
+
+"I don't quite him of the correct - and threats are not betray lost in the apiece of cloaking as 
+sky. Yes, then we can't help?" 
+"""
+
+### Model experiment and results using different architectures and training parameters
+
+
 ## UNET
 
 Following paper [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
