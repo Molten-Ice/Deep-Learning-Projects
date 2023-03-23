@@ -18,9 +18,9 @@ Average 0.46
 
 ![vesuvius-full-prediction](/Images/vesuvius-full-prediction.png)
 
-![vesuivus-slice-float1](/Images/vesuivus-slice-float.png)
+![vesuivus-slice-float](/Images/vesuivus-slice-float.png)
 
-![vesuvius-slice-bool1](/Images/vesuvius-slice-bool.png)
+![vesuivus-slice-bool](/Images/vesuivus-slice-bool.png)
 
 ## Auto-encoder for MNIST
 
