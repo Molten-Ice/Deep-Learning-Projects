@@ -96,3 +96,11 @@ Following paper [U-Net: Convolutional Networks for Biomedical Image Segmentation
 
 ![UNET-pred-target-1](/Images/UNET-pred-target-1.png)
 
+## Neural Style Transfer
+
+Following paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
+
+![neural-style-transfer-images](/Images/neural-style-transfer-images.gif)
+
+![file-image-nst.png](/Images/file-image-nst.png)
+
