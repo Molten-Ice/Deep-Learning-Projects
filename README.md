@@ -104,3 +104,7 @@ Following paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/150
 
 ![file-image-nst.png](/Images/file-image-nst.png)
 
+## GAN for FashionMNIST
+
+## CycleGAN human faces --> simpsons
+
