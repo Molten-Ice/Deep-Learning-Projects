@@ -106,5 +106,7 @@ Following paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/150
 
 ## GAN for FashionMNIST
 
+![gan-fashion-mnist](/Images/gan-fashion-mnist.gif)
+
 ## CycleGAN human faces --> simpsons
 
